@@ -1,5 +1,5 @@
 // ── VERSIÓN — cambia esto cada vez que hagas cambios ──────────────────────
-const APP_VERSION = 'v1.0.1';
+const APP_VERSION = 'v1.0.2';
 // ──────────────────────────────────────────────────────────────────────────
 
 const CACHE_STATIC  = `custompad-static-${APP_VERSION}`;
