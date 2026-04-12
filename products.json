@@ -3,17 +3,20 @@
     "name": "CustomPad Studio",
     "whatsapp": "+5353032939",
     "currency": "USD",
-    "customizationFee": 0.50
+    "customizationFee": 0.5
   },
   "sizes": [
     {
       "id": "small",
       "label": "19 x 30 cm",
-      "price": 4.00,
+      "price": 4,
       "description": "Tamano estandar de escritorio",
       "stitching": {
         "count": 2,
-        "borders": ["left", "right"],
+        "borders": [
+          "left",
+          "right"
+        ],
         "label": "2 bordes cosidos",
         "detail": "Bordes laterales izquierdo y derecho reforzados con costura de alta resistencia para mayor durabilidad."
       },
@@ -28,11 +31,15 @@
     {
       "id": "large",
       "label": "28 x 30 cm",
-      "price": 7.00,
+      "price": 7,
       "description": "Tamano XL para maxima comodidad",
       "stitching": {
         "count": 3,
-        "borders": ["top", "left", "right"],
+        "borders": [
+          "top",
+          "left",
+          "right"
+        ],
         "label": "3 bordes cosidos",
         "detail": "Bordes superior, izquierdo y derecho reforzados con costura de alta resistencia para mayor durabilidad."
       },
@@ -51,48 +58,100 @@
       "name": "Minecraft World",
       "description": "Un hermoso mundo mágico al alcance de tu escritorio",
       "images": {
-        "small": ["images/mp001_small_1.jpg", "images/mp001_small_2.jpg"],
-        "large": ["images/mp001_large_1.jpg", "images/mp001_large_2.jpg"]
+        "small": [
+          "images/mp001_small_1.jpg",
+          "images/mp001_small_2.jpg"
+        ],
+        "large": [
+          "images/mp001_large_1.jpg",
+          "images/mp001_large_2.jpg"
+        ]
       },
       "available": true,
-      "availableSizes": ["small", "large"],
-      "tags": ["Minecraft", "Videojuegos", "Fantasía"]
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "Minecraft",
+        "Videojuegos",
+        "Fantasía"
+      ]
     },
     {
       "id": "mp002",
       "name": "COD Black Ops 7",
       "description": "Call Of Duty Black Ops 7 Alfombrilla competitiva",
       "images": {
-        "small": ["images/mp002_small_1.jpg", "images/mp002_small_2.jpg"],
-        "large": ["images/mp002_large_1.jpg", "images/mp002_large_2.jpg"]
+        "small": [
+          "images/mp002_small_1.jpg",
+          "images/mp002_small_2.jpg"
+        ],
+        "large": [
+          "images/mp002_large_1.jpg",
+          "images/mp002_large_2.jpg"
+        ]
       },
       "available": true,
-      "availableSizes": ["small", "large"],
-      "tags": ["COD", "Black Ops", "Videojuegos"]
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "COD",
+        "Black Ops",
+        "Videojuegos"
+      ]
     },
     {
       "id": "mp003",
       "name": "Japan",
       "description": "En algun lugar de Japón",
       "images": {
-        "small": ["images/mp003_small_1.jpg", "images/mp003_small_2.jpg"],
-        "large": ["images/mp003_large_1.jpg", "images/mp003_large_2.jpg"]
+        "small": [
+          "images/mp003_small_1.jpg",
+          "images/mp003_small_2.jpg"
+        ],
+        "large": [
+          "images/mp003_large_1.jpg",
+          "images/mp003_large_2.jpg"
+        ]
       },
       "available": true,
-      "availableSizes": ["small", "large"],
-      "tags": ["Japon", "clasico", "paisaje"]
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "Japon",
+        "clasico",
+        "paisaje"
+      ]
     },
     {
       "id": "mp004",
       "name": "Ghost Of Thushima",
-      "description": "Que el espirutu de los ancestros te acompañe",
+      "description": "Que el espiritu de los ancestros te acompañe",
       "images": {
-        "small": ["images/mp004_small_1.jpg", "images/mp004_small_2.jpg"],
-        "large": ["images/mp004_large_1.jpg", "images/mp004_large_2.jpg"]
+        "small": [
+          "images/mp004_small_1.jpg",
+          "images/mp004_small_2.jpg"
+        ],
+        "large": [
+          "images/mp004_large_1.jpg",
+          "images/mp004_large_2.jpg"
+        ]
       },
       "available": true,
-      "availableSizes": ["small", "large"],
-      "tags": ["gaming", "retro", "pixel"]
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "gaming",
+        "retro",
+        "pixel"
+      ]
     }
   ]
 }
