@@ -1,7 +1,7 @@
 {
-  "name": "CustomPad Studio",
-  "short_name": "CustomPad",
-  "description": "Mousepads personalizados — diseños únicos a tu medida",
+  "name": "Creative7",
+  "short_name": "Creative7",
+  "description": "Mousepads, jarras y pulovers personalizados",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
