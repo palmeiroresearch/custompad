@@ -6,18 +6,39 @@
     "currency": "USD"
   },
   "categories": [
-    { "id": "mousepad", "name": "Mousepads", "icon": "🖱️", "description": "Diseños únicos para tu escritorio" },
-    { "id": "jarra",    "name": "Jarras",    "icon": "☕", "description": "Sublimación HD, calidad AAA" },
-    { "id": "pulover",  "name": "Pulovers",  "icon": "👕", "description": "Dryfit 100% poliéster, 100% personalizables" }
+    {
+      "id": "mousepad",
+      "name": "Mousepads",
+      "icon": "🖱️",
+      "description": "Diseños únicos para tu escritorio"
+    },
+    {
+      "id": "jarra",
+      "name": "Jarras",
+      "icon": "☕",
+      "description": "Sublimación HD, calidad AAA"
+    },
+    {
+      "id": "pulover",
+      "name": "Pulovers",
+      "icon": "👕",
+      "description": "Dryfit 100% poliéster, 100% personalizables"
+    }
   ],
   "sizeGroups": {
     "mousepad": [
       {
-        "id": "small", "label": "19 × 30 cm", "price": 4.00,
+        "id": "small",
+        "label": "19 × 30 cm",
+        "price": 4,
         "description": "Tamaño estándar de escritorio",
-        "customizationFee": 0.50,
+        "customizationFee": 0.5,
         "stitching": {
-          "count": 2, "borders": ["left","right"],
+          "count": 2,
+          "borders": [
+            "left",
+            "right"
+          ],
           "label": "2 bordes cosidos",
           "detail": "Bordes laterales izquierdo y derecho reforzados con costura de alta resistencia."
         },
@@ -30,11 +51,18 @@
         ]
       },
       {
-        "id": "large", "label": "28 × 30 cm", "price": 7.00,
+        "id": "large",
+        "label": "28 × 30 cm",
+        "price": 7,
         "description": "Tamaño XL para máxima comodidad",
-        "customizationFee": 0.50,
+        "customizationFee": 0.5,
         "stitching": {
-          "count": 3, "borders": ["top","left","right"],
+          "count": 3,
+          "borders": [
+            "top",
+            "left",
+            "right"
+          ],
           "label": "3 bordes cosidos",
           "detail": "Bordes superior, izquierdo y derecho reforzados con costura de alta resistencia."
         },
@@ -49,7 +77,9 @@
     ],
     "jarra": [
       {
-        "id": "11oz", "label": "11 oz", "price": 4.00,
+        "id": "11oz",
+        "label": "11 oz",
+        "price": 4,
         "description": "Jarra de 11 onzas, calidad AAA",
         "customizationFee": 0,
         "alwaysCustomizable": true,
@@ -64,11 +94,31 @@
       }
     ],
     "pulover": [
-      { "id": "S",   "label": "S",   "price": 4.00 },
-      { "id": "M",   "label": "M",   "price": 4.00 },
-      { "id": "L",   "label": "L",   "price": 4.00 },
-      { "id": "XL",  "label": "XL",  "price": 4.00 },
-      { "id": "XXL", "label": "XXL", "price": 4.00 }
+      {
+        "id": "S",
+        "label": "S",
+        "price": 4
+      },
+      {
+        "id": "M",
+        "label": "M",
+        "price": 4
+      },
+      {
+        "id": "L",
+        "label": "L",
+        "price": 4
+      },
+      {
+        "id": "XL",
+        "label": "XL",
+        "price": 4
+      },
+      {
+        "id": "XXL",
+        "label": "XXL",
+        "price": 4
+      }
     ],
     "puloverMeta": {
       "customizationFee": 0,
@@ -84,69 +134,179 @@
   },
   "products": [
     {
-      "id": "mp001", "category": "mousepad",
+      "id": "mp001",
+      "category": "mousepad",
       "name": "Minecraft World",
       "description": "Un hermoso mundo mágico al alcance de tu escritorio",
       "images": {
-        "small": ["images/mp001_small_1.jpg","images/mp001_small_2.jpg"],
-        "large": ["images/mp001_large_1.jpg","images/mp001_large_2.jpg"]
+        "small": [
+          "images/mp001_small_1.jpg",
+          "images/mp001_small_2.jpg"
+        ],
+        "large": [
+          "images/mp001_large_1.jpg",
+          "images/mp001_large_2.jpg"
+        ]
       },
-      "available": true, "availableSizes": ["small","large"],
-      "tags": ["Minecraft","Videojuegos","Fantasía"]
+      "available": true,
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "Minecraft",
+        "Videojuegos",
+        "Fantasía"
+      ]
     },
     {
-      "id": "mp002", "category": "mousepad",
+      "id": "mp002",
+      "category": "mousepad",
       "name": "COD Black Ops 7",
       "description": "Call Of Duty Black Ops 7 Alfombrilla competitiva",
       "images": {
-        "small": ["images/mp002_small_1.jpg", "images/mp002_small_2.jpg"],
-        "large": ["images/mp002_large_1.jpg", "images/mp002_large_2.jpg"]
+        "small": [
+          "images/mp002_small_1.jpg",
+          "images/mp002_small_2.jpg"
+        ],
+        "large": [
+          "images/mp002_large_1.jpg",
+          "images/mp002_large_2.jpg"
+        ]
       },
-      "available": true, "availableSizes": ["small","large"],
-      "tags": ["COD","Black Ops","Videojuegos"]
+      "available": true,
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "COD",
+        "Black Ops",
+        "Videojuegos"
+      ]
     },
     {
-      "id": "mp003", "category": "mousepad",
+      "id": "mp003",
+      "category": "mousepad",
       "name": "Japan",
       "description": "En algun lugar de Japón",
       "images": {
-        "small": ["images/mp003_small_1.jpg", "images/mp003_small_2.jpg"],
-        "large": ["images/mp003_large_1.jpg", "images/mp003_large_2.jpg"]
+        "small": [
+          "images/mp003_small_1.jpg",
+          "images/mp003_small_2.jpg"
+        ],
+        "large": [
+          "images/mp003_large_1.jpg",
+          "images/mp003_large_2.jpg"
+        ]
       },
-      "available": true, "availableSizes": ["small","large"],
-      "tags": ["Japon","clasico","paisaje"]
+      "available": true,
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "Japon",
+        "clasico",
+        "paisaje"
+      ]
     },
     {
-      "id": "mp004", "category": "mousepad",
+      "id": "mp004",
+      "category": "mousepad",
       "name": "Ghost Of Thushima",
       "description": "Que el espiritu de los ancestros te acompañe",
       "images": {
-        "small": ["images/mp004_small_1.jpg", "images/mp004_small_2.jpg"],
-        "large": ["images/mp004_large_1.jpg", "images/mp004_large_2.jpg"]
+        "small": [
+          "images/mp004_small_1.jpg",
+          "images/mp004_small_2.jpg"
+        ],
+        "large": [
+          "images/mp004_large_1.jpg",
+          "images/mp004_large_2.jpg"
+        ]
       },
-      "available": true, "availableSizes": ["small","large"],
-      "tags": ["anime","atardecer","japones"]
+      "available": true,
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "anime",
+        "atardecer",
+        "japones"
+      ]
     },
     {
-      "id": "jarra001", "category": "jarra",
+      "id": "jarra001",
+      "category": "jarra",
       "name": "Jarra Sublimada 11oz",
       "description": "Jarra de cerámica de 11 onzas con sublimación HD. Perfecta para café, té o cualquier bebida caliente.",
       "images": {
-        "default": ["images/jarra001_1.jpg","images/jarra001_2.jpg"]
+        "default": [
+          "images/jarra001_1.jpg",
+          "images/jarra001_2.jpg"
+        ]
       },
-      "available": true, "availableSizes": ["11oz"],
-      "tags": ["jarra","sublimacion","ceramica","cafe"]
+      "available": true,
+      "availableSizes": [
+        "11oz"
+      ],
+      "tags": [
+        "jarra",
+        "sublimacion",
+        "ceramica",
+        "cafe"
+      ]
     },
     {
-      "id": "pv001", "category": "pulover",
+      "id": "pv001",
+      "category": "pulover",
       "name": "Pulover Dryfit",
       "description": "Pulover Dryfit 100% poliéster con tu diseño sublimado. Comodidad y estilo personalizados.",
       "images": {
-        "default": ["images/pv001_1.jpg","images/pv001_2.jpg"]
+        "default": [
+          "images/pv001_1.jpg",
+          "images/pv001_2.jpg"
+        ]
       },
       "available": true,
-      "availableSizes": ["M","L"],
-      "tags": ["pulover","dryfit","poliester","ropa"]
+      "availableSizes": [
+        "M",
+        "L"
+      ],
+      "tags": [
+        "pulover",
+        "dryfit",
+        "poliester",
+        "ropa"
+      ]
+    },
+    {
+      "id": "mp005",
+      "name": "Sephiroth Final Fantasy VII",
+      "description": "Sephiroth Final Fantasy VII",
+      "images": {
+        "small": [
+          "images/mp005_small_1",
+          "images/mp005_small_2"
+        ],
+        "large": [
+          "images/mp005_large_1",
+          "images/mp005_large_2"
+        ]
+      },
+      "category": "mousepad",
+      "available": true,
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "Sephiroth",
+        "Videojuego",
+        "Final Fantasy VII"
+      ]
     }
   ]
 }
