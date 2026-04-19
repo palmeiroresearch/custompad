@@ -243,12 +243,12 @@
       "description": "Sephiroth Final Fantasy VII",
       "images": {
         "small": [
-          "images/mp005_small_1",
-          "images/mp005_small_2"
+          "images/mp005_small_1.jpg",
+          "images/mp005_small_2.jpg"
         ],
         "large": [
-          "images/mp005_large_1",
-          "images/mp005_large_2"
+          "images/mp005_large_1.jpg",
+          "images/mp005_large_2.jpg"
         ]
       },
       "category": "mousepad",
