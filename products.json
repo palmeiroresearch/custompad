@@ -238,6 +238,32 @@
       ]
     },
     {
+      "id": "mp005",
+      "name": "Sephiroth Final Fantasy VII",
+      "description": "Sephiroth Final Fantasy VII",
+      "images": {
+        "small": [
+          "images/mp005_small_1",
+          "images/mp005_small_2"
+        ],
+        "large": [
+          "images/mp005_large_1",
+          "images/mp005_large_2"
+        ]
+      },
+      "category": "mousepad",
+      "available": true,
+      "availableSizes": [
+        "small",
+        "large"
+      ],
+      "tags": [
+        "Sephiroth",
+        "Videojuego",
+        "Final Fantasy VII"
+      ]
+    },
+    {
       "id": "jarra001",
       "category": "jarra",
       "name": "Jarra Sublimada 11oz",
@@ -280,32 +306,6 @@
         "dryfit",
         "poliester",
         "ropa"
-      ]
-    },
-    {
-      "id": "mp005",
-      "name": "Sephiroth Final Fantasy VII",
-      "description": "Sephiroth Final Fantasy VII",
-      "images": {
-        "small": [
-          "images/mp005_small_1",
-          "images/mp005_small_2"
-        ],
-        "large": [
-          "images/mp005_large_1",
-          "images/mp005_large_2"
-        ]
-      },
-      "category": "mousepad",
-      "available": true,
-      "availableSizes": [
-        "small",
-        "large"
-      ],
-      "tags": [
-        "Sephiroth",
-        "Videojuego",
-        "Final Fantasy VII"
       ]
     }
   ]
